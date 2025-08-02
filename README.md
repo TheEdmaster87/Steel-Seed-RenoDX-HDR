@@ -7,7 +7,6 @@ A RenoDX HDR modification for **Steel Seed** that adds comprehensive HDR support
 - **HDR Support**: HDR10, HDR400, HDR1000, and HDR4000 profiles
 - **Custom Tonemapping**: Multiple tonemapping curve options for different visual styles
 - **Advanced Color Grading**: Fine-tune brightness, contrast, saturation, and color balance
-- **Film Grain Control**: Adjustable film grain intensity
 - **Real-time Adjustments**: All settings can be adjusted in real-time via the ReShade overlay
 
 ## Requirements
