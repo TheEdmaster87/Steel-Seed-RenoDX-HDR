@@ -4,8 +4,7 @@ A RenoDX HDR modification for **Steel Seed** that adds comprehensive HDR support
 
 ## Features
 
-- **HDR Support**: HDR10, HDR400, HDR1000, and HDR4000 profiles
-- **Custom Tonemapping**: Multiple tonemapping curve options for different visual styles
+- **HDR Support**: HDR10
 - **Advanced Color Grading**: Fine-tune brightness, contrast, saturation, and color balance
 - **Real-time Adjustments**: All settings can be adjusted in real-time via the ReShade overlay
 
@@ -20,11 +19,10 @@ A RenoDX HDR modification for **Steel Seed** that adds comprehensive HDR support
 
 ### Step 1: Install ReShade with Add-on Support
 
-1. Download **ReShade** from [reshade.me](https://reshade.me/)
+1. Download **ReShade** with full addon support from [reshade.me](https://reshade.me/)
 2. Run the ReShade installer
 3. Select **Steel Seed executable**: `SteelSeed\Binaries\Win64\SteelSeed-Win64-Shipping.exe`
 4. Choose **DirectX 10/11/12**
-5. **Important**: Make sure to check **"Enable Add-on Support"** during installation
 6. Skip shader selection (not needed for this mod)
 
 ### Step 2: Install RenoDX HDR Mod
@@ -37,10 +35,10 @@ A RenoDX HDR modification for **Steel Seed** that adds comprehensive HDR support
 
 For HDR displays:
 1. Enable HDR in Windows Display Settings
-2. Set your display to HDR mode
+2. Set your display to HDR mode if it needs to be manually selected; it should automatically detect HDR when you enable HDR in Windows Display Settings.
 3. Launch Steel Seed
 4. Open ReShade overlay (Home key by default)
-5. Navigate to RenoDX settings and select appropriate HDR profile
+5. Navigate to RenoDX settings and select the appropriate HDR settings
 
 ## Usage
 
@@ -54,30 +52,22 @@ For HDR displays:
 ### Key Settings
 
 #### HDR Configuration
-- **HDR Peak Nits**: Choose HDR400, HDR1000, or HDR4000 based on your display
-- **Game Nits**: Adjust based on game's brightness (typically 100-203 nits)
+- **HDR Peak Nits**: Choose based on your display peak brightness
+- **Game Nits**: Adjust based on game's brightness (typically 100-203 nits, increaase this to make game brighter without increasing the peak nits of your display)
 - **UI Paper White**: Control UI element brightness separately
-- **HDR10 PQ**: Enable for proper HDR10 output
+-  **Gamma Correction**: Control between 2.2, 2.4/BT1886
 
 #### Tonemapping Options
 - **Tonemapping Type**: Choose from various curve options:
-  - Vanilla (Original game tonemapping)
-  - ACES
-  - Reinhard
-  - Custom curves
-- **Tone Map Gamma**: Fine-tune gamma correction
-- **Tone Map Exposure**: Adjust overall exposure
+  - Vanilla (Original game tonemapping) (SDR)
+  - RenoDRT (Real and true HDR10 tonemapping)
 
 #### Color Grading
 - **Brightness**: Global brightness adjustment
 - **Contrast**: Contrast enhancement
 - **Saturation**: Color saturation control
 - **Color Temperature**: Warm/cool color balance
-- **Tint**: Magenta/green color shift
-
-#### Film Grain
-- **Film Grain**: Enable/disable film grain effect
-- **Film Grain Intensity**: Control grain strength
+and more...
 
 ## Known Issues
 - **Brightness**: Game is too dark. Use Game brightness/shadows/contrast sliders to adjust game brightness. Will be fixed soon.. 
