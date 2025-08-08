@@ -80,9 +80,7 @@ For HDR displays:
 - **Film Grain Intensity**: Control grain strength
 
 ## Known Issues
-
-- **UI Brightness**: UI brightness controls affect the entire scene brightness (common Unreal Engine 5 limitation)
-- **Performance**: Minimal performance impact (~1-2% depending on settings)
+- **Brightness**: Game is too dark. Use Game brightness/shadows/contrast sliders to adjust game brightness. Will be fixed soon.. 
 
 ## Troubleshooting
 
