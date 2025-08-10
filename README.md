@@ -70,7 +70,7 @@ For HDR displays:
 and more...
 
 ## Known Issues
-- **Brightness**: Game is too dark. Use Game brightness/shadows/contrast sliders to adjust game brightness. Will be fixed soon.. 
+- **Brightness**: The Game might be too dark in some scenes. Use the game's brightness, shadows/contrast sliders to adjust the game's brightness.
 
 ## Troubleshooting
 
