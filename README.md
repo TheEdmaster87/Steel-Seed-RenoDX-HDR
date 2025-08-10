@@ -110,10 +110,15 @@ Found a bug or have suggestions? Please open an issue on this repository.
 - **ReShade**: [crosire/reshade](https://github.com/crosire/reshade)
 - **Steel Seed**: [Game Developer]
 
-## License
-
-This modification is provided as-is for educational and enhancement purposes.
-
 ---
 
 **Enjoy enhanced HDR gaming in Steel Seed!**
+
+## Disclaimer
+
+This mod does not include any original game assets or proprietary files. It is an unofficial modification and is not affiliated with or endorsed by the developers of Steel Seed or RenoDX. All trademarks and copyrights belong to their respective owners.
+
+## License
+
+The compiled mod file `renodx-steelseed.addon64` and all accompanying files in this repository are licensed under the MIT License. You are free to use, share, and modify this mod under the terms of the MIT License. See [https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT) for details.
+
