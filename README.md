@@ -70,7 +70,7 @@ For HDR displays:
 and more...
 
 ## Known Issues
-- **Brightness**: The Game might be too dark in some scenes. Use the game's brightness, shadows/contrast sliders to adjust the game's brightness.
+- **Nvidia Frame Gen**: Nvidia Frame Generation is not working yet with this mod.
 
 ## Troubleshooting
 
